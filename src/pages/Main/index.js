@@ -1,10 +1,10 @@
 import React from 'react';
-
+import {Title} from './styles';
 
 function Main() {
   return (
    <div>
-     <h1>Chegamos no MAIN</h1>
+     <Title>Chegamos no MAIN</Title>
    </div>
   );
 }
