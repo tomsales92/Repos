@@ -19,13 +19,12 @@ export default createGlobalStyle`
   }
   
   body, input, button {
-    cursor: pointer;
     color: #222;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  body, input {
+  button {
     cursor: pointer;
   }
   `;
