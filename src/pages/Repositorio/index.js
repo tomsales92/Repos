@@ -1,11 +1,12 @@
 import React from 'react';
 
 
-function Repositorio() {
+function Repositorio({match}) {
   return (
    <div>
-     <h1>Chegamos no Repositorio</h1>
-
+     <h1 style={{color:'#fff' }}>
+      {decodeURIComponent(match.params.repositorio)}
+    </h1>
    </div>
   );
 }
